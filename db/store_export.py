@@ -216,7 +216,7 @@ def normalize_mask_data(pharmacies_data):
                 'pharmacy_id': pharmacy_id,
                 'mask_type_id': mask_type_map[mask_key],
                 'price': price,
-                # 'quantity': 10,  # 設置默認庫存數量
+                'quantity': 10,  # 設置默認庫存數量
                 'last_updated': current_time
             })
             inventory_id += 1
